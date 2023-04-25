@@ -1,0 +1,38 @@
+.burger-card {
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .burger-img {
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .burger-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .burger-details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  
+  .burger-details h3 {
+    margin-top: 0;
+  }
+  
+  .burger-details p {
+    margin-bottom: 0;
+  }
+  
